@@ -1,0 +1,2 @@
+1. Restyle <p>s with .active_speech so they are in quotations marks
+2. Add hover popups with definitions, etc.

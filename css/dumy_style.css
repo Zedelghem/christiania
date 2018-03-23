@@ -6,7 +6,7 @@
     /* Safari, Android, iOS */
 }
 
-@import url('https://fonts.googleapis.com/css?family=Faster+One');
+@import url('https://fonts.googleapis.com/css?family=Faster+One|Zilla+Slab+Highlight');
 body {
     /*font-family: Arial, sans-serif;*/
     font-family: 'CoolMonospace', monospace;
@@ -98,8 +98,8 @@ h1 {
 /* Start of people */
 
 #old_christianite {
-    top: 65%;
-    left: 30%;
+    top: 49%;
+    left: 45%;
 }
 
 #old_christianite.box {
@@ -195,7 +195,7 @@ h1 {
 .popup p.active_speech:before {
     content: '" ';
     font-size: 2em;
-    font-family: 'Faster One', cursive;
+    font-family: 'Zilla Slab Highlight', cursive;
     margin-left: -15px;
 }
 
