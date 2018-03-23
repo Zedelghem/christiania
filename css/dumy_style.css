@@ -1,5 +1,15 @@
+@font-face {
+    font-family: 'CoolMonospace';
+    src: url('http://colonial.one/assets/79e13e-Regular-R141126-webb5b9.eot') format('eot'), /* IE9 Compat Modes */
+    url('http://colonial.one/assets/79e13e-Regular-R141126-webb5b9.woff') format('woff'), /* Pretty Modern Browsers */
+    url('http://colonial.one/assets/79e13e-Regular-R141126-webb5b9.ttf') format('truetype');
+    /* Safari, Android, iOS */
+}
+
+@import url('https://fonts.googleapis.com/css?family=Faster+One');
 body {
-    font-family: Arial, sans-serif;
+    /*font-family: Arial, sans-serif;*/
+    font-family: 'CoolMonospace', monospace;
     background-color: #2f2f2f;
     background-size: cover;
     height: 100vh;
@@ -19,6 +29,7 @@ body {
 #map img {
     max-width: 100%;
     display: block;
+    /*filter: saturate(2);*/
 }
 
 h1 {
@@ -91,7 +102,12 @@ h1 {
     left: 30%;
 }
 
-#old_christianite .box {}
+#old_christianite.box {
+    background-image: url("http://www.clker.com/cliparts/7/1/d/e/12085303071725400257jetxee_people_near_a_blackboard_1.svg");
+}
+
+
+/* Character image presented on the overlay */
 
 .person {
     height: 70%;
@@ -166,16 +182,26 @@ h1 {
     transition: all 5s ease-in-out;
 }
 
-.popup p .active_speech {
-    padding-left: 15px;
+.popup p {
+    width: 80%;
+    line-height: 1.5em;
+    margin-top: 10px;
 }
 
-.popup p .active_speech:before {
-    content: '"';
+.popup p.active_speech {
+    margin-left: 30px;
+}
+
+.popup p.active_speech:before {
+    content: '" ';
+    font-size: 2em;
+    font-family: 'Faster One', cursive;
+    margin-left: -15px;
 }
 
 .popup h2 {
     margin-top: 0;
+    margin-bottom: 10px;
     color: #333;
     font-family: Tahoma, Arial, sans-serif;
 }
