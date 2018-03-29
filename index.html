@@ -3,6 +3,7 @@
 <head>
     <title>Freetown Christiania</title>
     <link rel="stylesheet" href="css/dumy_style.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif" rel="stylesheet">
 </head>
 
 <body>
@@ -13,13 +14,15 @@
 
         <div id="width_error">All folks in Christiania are extremely sorry, this page requires a viewport at least 700px wide. Please, use a wider screen.</div>
 
-        <img src="assets/Christiania.png" alt="" />
+        <img src="assets/smaller_christiania.png" alt="" />
 
         <h1></h1>
 
+        <!-- Pins for Locations -->
+
         <div id="entrance" class="box">
             <div class="pin-text">
-                <a class="button_link" href="#popup1">
+                <a class="button_link" href="#popup_entrance">
                     <h3>Entrance</h3>
                 </a>
             </div>
@@ -27,7 +30,7 @@
 
         <div id="pusher_st" class="box">
             <div class="pin-text">
-                <a class="button_link" href="#popup1">
+                <a class="button_link" href="#popup_pusher_st">
                     <h3>Pusher Street</h3>
                 </a>
             </div>
@@ -35,7 +38,7 @@
 
         <div id="bossehuset" class="box">
             <div class="pin-text">
-                <a class="button_link" href="#popup1">
+                <a class="button_link" href="#popup_bossehuset">
                     <h3>Bøssehuset</h3>
                 </a>
             </div>
@@ -43,7 +46,7 @@
 
         <div id="okonomikontoret" class="box">
             <div class="pin-text">
-                <a class="button_link" href="#popup1">
+                <a class="button_link" href="#popup_okonomikontoret">
                     <h3>Økonomikontoret</h3>
                 </a>
             </div>
@@ -65,6 +68,8 @@
             </div>
         </div>
 
+        <!-- Pins for People -->
+
         <div id="old_christianite" class="box">
             <div class="pin-text">
                 <a class="button_link" href="#popup_christianite">
@@ -73,8 +78,71 @@
             </div>
         </div>
 
+        <div id="applicant" class="box">
+            <div class="pin-text">
+                <a class="button_link" href="#popup_applicant">
+                    <h3>Applicant</h3>
+                </a>
+            </div>
+        </div>
+
+        <div id="policeman" class="box">
+            <div class="pin-text">
+                <a class="button_link" href="#popup_policeman">
+                    <h3>Police officer</h3>
+                </a>
+            </div>
+        </div>
+
+        <div id="civil_servant" class="box">
+            <div class="pin-text">
+                <a class="button_link" href="#popup_servant">
+                    <h3>Civil servant</h3>
+                </a>
+            </div>
+        </div>
+
+        <!-- popups for people -->
 
         <div id="popup_christianite" class="overlay">
+            <img class="person" src="assets/old_guy_cropped_white.png" />
+            <div class="popup">
+                <h1>Meet a long time Christianite</h1>
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                    <p class="active_speech">It’s a great place, I’ve lived here for 30 years now. Everything is quiet, and I know all my neighbours, but in ten minutes I can be in the city center of Copenhagen with all its facilities and connections to the world. It’s like a
+                        village in the city. But of course not everyone can handle all the meetings and involvement in every community issue. Some of my friends even moved out because of this.
+                    </p>
+                    <br>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/mry_ddbniZE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <br>
+                    <p class="active_speech">Indeed, there has been much transformation after the Agreement! Before, if there was a poor woman with children, who couldn’t afford housing, we could just assign a house to them. But now, free place is scarce, so one has to pass a
+                        rigorous application process and later pay rental fees to live here. With government’s normalization efforts, there is no place for the poor anymore…
+                    </p>
+
+                    <p class="description pubpol">The community in Freetown Christiania has been subject to frequent police raids and significant prejudice from the right-wing Danish government. The residents are often viewed as oddities who do not have a place in the “new creative
+                        economy” and the “world-class business environment” that the government is attempting to transform Christiania into. Even though the commune has existed for over 40 years, and was for a long time treated almost as a social experiment
+                        by the government, new laws are being brought into force to systematically force the residents out.</p>
+
+                    <p class="description law">There are clear attempts to gentrify the area, as Christiania occupies prime real estate in downtown Copenhagen (Hansen et. al 2001, Larsen and Hansen 2008). Moreover, it is a case of infringing on the residents’ “rights to the city”,
+                        and their right to live a different way of life (Hansen 2011). But, on the other hand, there is some potential for the residents to use this period of urban transformation as a chance to claim their ‘right’ to live on the land
+                        they have called home for over 40 years (Scheingold 1974; Lefebvre 1996) . </p>
+
+                    <h2 class="description">References</h2>
+                    <div class="references">
+                        <p>Hansen, L. A., Andersen, H. T. and Clark, E. 2001. Creative Copenhagen: Globalization, urban governance and social change. European Planning Studies. 9(7): 851-869.</p>
+                        <p>Hansen, A. L. 2011. Forty-years of system change: Lessons from the free city of Christiania. In Climate Change: Who’s Carrying the Burden e.d. Erika Shaker. 217-230. Ottowa: Canadian Centre for Policy Alternatives.</p>
+                        <p>Lefebvre, H. 1996. The right to the city. In Writings on the city e.d. E. Kofman and E. Lebas. Berkeley: University of California Press.</p>
+                        <p>Larsen, H. G. and Hansen, L. A. 2008. Gentrification – gentle or traumatic? Urban renewal policies and socio-cultural transformation in Copenhagen. Urban Studies. 45: 2429-2448.</p>
+                        <p>Scheingold, S. A. 1974. Legal rights and political mobilization. In The Politics of Rights: Lawyers, Public Policy, and Political Change. New Haven, CT: Yale University Press.</p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div id="popup_policeman" class="overlay">
             <img class="person" src="assets/old_guy_cropped_white.png" />
             <div class="popup">
                 <h2>Meet the Old Christianite</h2>
@@ -94,6 +162,50 @@
                 </div>
             </div>
         </div>
+
+        <div id="popup_applicant" class="overlay">
+            <img class="person" src="assets/old_guy_cropped_white.png" />
+            <div class="popup">
+                <h2>Meet the Old Christianite</h2>
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                    <p class="active_speech">It’s a great place, you know. I live here for 30 years now, everything is quiet, I know all my neighbors, but in ten minutes I can be in the city center of Copenhagen with all its facilities and connections to the world. It’s like
+                        a village in the city. But of course not everyone can handle all the meetings and involvement in every community issue. Some of my friends even moved out because of this:
+                    </p>
+                    <br>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/mry_ddbniZE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <br>
+                    <p class="active_speech">One really bad aspect of Christiania is the weed market, though. We, peaceful Christianites, agreed to kick them out multiple times at community meetings, but we cannot enforce our decision. Thus, we just avoid Pusher street with all
+                        the stalls. Indeed, there has been much transformation after the Agreement! Before, if there was a poor woman with children, who couldn’t afford housing, we could just assign a house to them. But now, free places are scarce, so
+                        you have to pass a rigorous application process and later pay the rental fees. With governmental normalization efforts, there is no place for the poor anymore…
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="popup_servant" class="overlay">
+            <img class="person" src="assets/old_guy_cropped_white.png" />
+            <div class="popup">
+                <h2>Meet the Old Christianite</h2>
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                    <p class="active_speech">It’s a great place, you know. I live here for 30 years now, everything is quiet, I know all my neighbors, but in ten minutes I can be in the city center of Copenhagen with all its facilities and connections to the world. It’s like
+                        a village in the city. But of course not everyone can handle all the meetings and involvement in every community issue. Some of my friends even moved out because of this:
+                    </p>
+                    <br>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/mry_ddbniZE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <br>
+                    <p class="active_speech">One really bad aspect of Christiania is the weed market, though. We, peaceful Christianites, agreed to kick them out multiple times at community meetings, but we cannot enforce our decision. Thus, we just avoid Pusher street with all
+                        the stalls. Indeed, there has been much transformation after the Agreement! Before, if there was a poor woman with children, who couldn’t afford housing, we could just assign a house to them. But now, free places are scarce, so
+                        you have to pass a rigorous application process and later pay the rental fees. With governmental normalization efforts, there is no place for the poor anymore…
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- popups for locations -->
 
         <div id="popup_queen" class="overlay">
             <div class="popup">
