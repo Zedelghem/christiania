@@ -49,23 +49,18 @@ body {
 /* Locations on map */
 
 #entrance {
-    top: 65%;
+    top: 66%;
     left: 20%;
 }
 
-#pusher_st {
-    top: 68%;
-    left: 25%;
-}
-
-#bossehuset {
-    top: 63%;
-    left: 29%;
+#badehusset {
+    top: 71%;
+    left: 31%;
 }
 
 #okonomikontoret {
-    top: 63%;
-    left: 26%;
+    top: 64%;
+    left: 27%;
 }
 
 #executions {
@@ -87,6 +82,11 @@ body {
     background-image: none;
 }
 
+#empty_dwelling {
+    top: 68%;
+    left: 37%;
+}
+
 
 /* End of locations */
 
@@ -99,16 +99,16 @@ body {
 }
 
 #old_christianite.box {
-    background-image: url("http://www.clker.com/cliparts/7/1/d/e/12085303071725400257jetxee_people_near_a_blackboard_1.svg");
+    background-image: url("../assets/old_fig.png");
 }
 
 #applicant {
-    top: 64%;
-    left: 21%;
+    top: 68%;
+    left: 17%;
 }
 
 #applicant.box {
-    background-image: url("http://www.clker.com/cliparts/7/1/d/e/12085303071725400257jetxee_people_near_a_blackboard_1.svg");
+    background-image: url("../assets/hip_fig.png");
 }
 
 #civil_servant {
@@ -117,16 +117,16 @@ body {
 }
 
 #civil_servant.box {
-    background-image: url("http://www.clker.com/cliparts/7/1/d/e/12085303071725400257jetxee_people_near_a_blackboard_1.svg");
+    background-image: url("../assets/servant_fig.png");
 }
 
 #policeman {
-    top: 67%;
-    left: 27%;
+    top: 72%;
+    left: 25%;
 }
 
 #policeman.box {
-    background-image: url("http://www.clker.com/cliparts/7/1/d/e/12085303071725400257jetxee_people_near_a_blackboard_1.svg");
+    background-image: url("../assets/policeman_fig.png");
 }
 
 
@@ -266,6 +266,15 @@ body {
     margin-top: 30px;
 }
 
+.popup .content ul {
+    list-style-type: square !important;
+}
+
+.popup .content li {
+    margin-left: 40px;
+    max-width: 80%;
+}
+
 .popup p.active_speech {
     margin-left: 20px;
     padding-left: 10px;
@@ -314,6 +323,20 @@ body {
     margin-right: 5px;
 }
 
+.popup p.phil:before {
+    position: relative;
+    content: 'phil';
+    font-size: 0.7em;
+    background-color: darkgoldenrod;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+    opacity: 1;
+    margin-right: 5px;
+}
+
 .popup p.pubpol:before {
     position: relative;
     content: 'policy';
@@ -351,7 +374,7 @@ body {
     margin-top: 10px;
 }
 
-p.references {
+.references p {
     margin-bottom: 5px;
     font-size: 0.8em;
 }
@@ -365,11 +388,12 @@ p.references {
     font-weight: bold;
     text-decoration: none;
     color: #333;
-    transition: all 5s ease-in-out;
+    transition: all 0.7s ease-in-out;
+    background-color: white;
 }
 
 .popup .close:hover {
-    color: #06D85F;
+    color: darkred;
 }
 
 .popup .content {
