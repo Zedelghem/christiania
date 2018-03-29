@@ -6,8 +6,6 @@
     /* Safari, Android, iOS */
 }
 
-@import url('https://fonts.googleapis.com/css?family=Faster+One|Zilla+Slab+Highlight');
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif');
 body {
     /*font-family: Arial, sans-serif;*/
     /*font-family: 'CoolMonospace', monospace;*/
@@ -43,6 +41,31 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
+}
+
+#welcome {
+    position: absolute;
+    margin: 4%;
+    color: white;
+    z-index: 1000;
+}
+
+#welcome p {
+    margin-top: 5%;
+    font-size: 0.9em;
+    max-width: 300px;
+}
+
+#intro_conc {
+    margin-top: 5%;
+}
+
+#intro,
+#conc {
+    color: black;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    width: 30px;
 }
 
 
@@ -112,8 +135,8 @@ body {
 }
 
 #civil_servant {
-    top: 66%;
-    left: 25%;
+    top: 78%;
+    left: 19%;
 }
 
 #civil_servant.box {
