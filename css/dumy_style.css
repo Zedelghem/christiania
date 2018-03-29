@@ -46,7 +46,7 @@ body {
 #welcome {
     position: absolute;
     margin: 4%;
-    color: white;
+    color: ghostwhite;
     z-index: 1000;
 }
 
