@@ -53,19 +53,20 @@ body {
 #welcome p {
     margin-top: 5%;
     font-size: 0.9em;
-    max-width: 300px;
+    max-width: 500px;
 }
 
-#intro_conc {
+#intro_conc .tooltip {
     margin-top: 5%;
+    border-bottom: none;
 }
 
 #intro,
 #conc {
-    color: black;
     -webkit-filter: invert(100%);
     filter: invert(100%);
     width: 30px;
+    margin-right: 10px;
 }
 
 
